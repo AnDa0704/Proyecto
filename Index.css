@@ -1,125 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap');
-
-body{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Redaction", serif;
-
-}
-
-html{
-scroll-behavior: smooth;
-}
-
-#Inicio{
-
-background: linear-gradient(rgba(158, 237, 206, 0.7), rgb(165, 244, 224)), url("../assets/fondo\ de\ pantalla.jpg");
-
-    background-size: cover;
-    background-position: center center;
-    height: 100vh;
-
-}
-
-
-
-#Inicio .Contenido header{
-
-    color: rgb(157, 236, 212);
-    background-color: rgba(140, 210, 203, 0.7);
-    position: fixed;
-    width: 100%;
-    z-index: 100;
-    top: 0;
-
-}
-
-
-
-#Inicio .Contenido header .Contenido-header{
-
-    max-width: 1100px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-
-}
-
-
-
-#Inicio .Contenido header .Contenido-header nav h1{
-
-    text-align: center;
-    color: rgb(121, 222, 187);
-
-}
-
-
-
-#Inicio .Contenido header .Contenido-header nav ul{
-
-    list-style: none;
-    display: flex;
-    align-items: center;
-
-}
-
-
-
-#Inicio .Contenido header .Contenido-header nav ul li a{
-
-text-decoration: none;
-color: rgb(112, 230, 194);
-margin: 0 12px;
-font-weight: 400;
-transition: .5s;
-
-}
-
-
-
-#Inicio .Contenido header .Contenido-header nav ul li a:hover{
-
-    color: rgb(138, 235, 219);
-
-}
-
-
-
-#Inicio .Contenido .presentacion{
-
-    max-width: 1100px;
-    height: 100vh;
-    margin: auto;
-    color: rgb(157, 244, 215);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-#Inicio .Contenido .presentacion .bienvenida{
-
-font-size: 16px;
-margin-bottom: 20px;
-text-transform: uppercase;
-letter-spacing: 5px;
-
-}
 
 /* SECCION SOBRE MI */
 #sobreMi {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: rgb(117, 227, 185);
+    color: rgb(0, 6, 4);
     display: flex;
 }
 
@@ -143,9 +28,9 @@ margin: 0 40px;
 #sobreMi .sobreMi .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
-    color: rgb(157, 241, 206);
+    color: rgb(136, 233, 189);
     text-decoration: underline;
-    text-decoration-color: rgb(160, 251, 245);
+    text-decoration-color: rgb(113, 196, 188);
     text-decoration-thickness: 5px;
 
 }
@@ -159,7 +44,7 @@ margin: 0 40px;
 }
 
 #sobreMi .sobreMi h2 span{
-    color: rgb(92, 207, 180);
+    color: rgb(74, 212, 180);
 
 }
 
@@ -174,22 +59,22 @@ margin: 0 40px;
 #sobreMi .sobreMi p{
     font-size: 14px;
     line-height: 25px;
-    color: rgba(8, 167, 135, 0.646);
+    color: rgba(0, 6, 5, 0.646);
     margin-bottom: 12px;
 }
 
 #sobreMi .sobreMi a{
     display: inline-block;
     text-decoration: none;
-    color: rgba(145, 230, 196);
+    color: rgb(122, 219, 184);
     border-radius: 30px;
     padding: 10px 20px;
-    border: 1px solid rgb(39, 220, 190);
+    border: 1px solid rgb(158, 228, 217);
     margin-top: 30px;
     transition: .5s;
 }
 
 #sobreMi .sobreMi a:hover{
-    background-color: rgb(32, 223, 156);
-    color: rgb(55, 228, 185);
+    background-color: rgb(136, 248, 209);
+    color: rgb(180, 244, 228);
 }
