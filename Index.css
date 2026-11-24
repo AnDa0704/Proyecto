@@ -1,54 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Redaction:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* SECCION SOBRE MI */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Redaction", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* SECCIÓN INICIO */
+#inicio {
+    background: linear-gradient(rgba(121, 235, 228, 0.7), rgba(182, 236, 232, 0.85)), url("../assets/fondodepantalla.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+#inicio .contenido header {
+    color: rgb(0, 0, 0);
+    background-color: rgba(127, 224, 229, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+#inicio .contenido header .contenido-header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+#inicio .contenido header .contenido-header h1 {
+    font-size: 20px;
+    margin: 0;
+    color: rgb(0, 3, 3);
+}
+
+#inicio .contenido header .contenido-header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#inicio .contenido header .contenido-header nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 6, 6);
+    margin: 0 12px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+#inicio .contenido header .contenido-header nav ul li a:hover {
+    color: rgb(103, 234, 244);
+}
+
+#inicio .contenido .presentacion {
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    color: rgb(0, 5, 5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#inicio .contenido .presentacion .bienvenida {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* SECCIÓN SOBRE MI */
 #sobreMi {
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
-    color: rgb(0, 6, 4);
+    color: rgb(10, 10, 10);
     display: flex;
+    align-items: center;
 }
 
-#sobreMi .Contenido-foto{
+#sobreMi .contenedor-foto {
     max-width: 400px;
     margin-right: 80px;
-
 }
 
-#sobreMi .Contenido-foto img{
+#sobreMi .contenedor-foto img {
     padding: 20px;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(59, 236, 207);
+    background-color: rgb(99, 225, 234);
 }
 
-#sobreMi .sobreMi{
-margin: 0 40px;
+#sobreMi .sobreMi {
+    margin: 0 40px;
 }
 
-#sobreMi .sobreMi .titulo-seccion{
+#sobreMi .sobreMi .titulo-seccion {
     font-size: 22px;
     text-transform: uppercase;
-    color: rgb(136, 233, 189);
+    color: rgb(86, 186, 197);
     text-decoration: underline;
-    text-decoration-color: rgb(113, 196, 188);
+    text-decoration-color: rgb(0, 0, 0);
     text-decoration-thickness: 5px;
-
 }
 
-#sobreMi .sobreMi h2{
+#sobreMi .sobreMi h2 {
     font-size: 34px;
     font-weight: bold;
     margin: 20px 0;
     letter-spacing: 2px;
-
 }
 
-#sobreMi .sobreMi h2 span{
-    color: rgb(74, 212, 180);
-
+#sobreMi .sobreMi h2 span {
+    color: rgb(131, 213, 227);
 }
 
-#sobreMi .sobreMi h3{
+#sobreMi .sobreMi h3 {
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
@@ -56,25 +139,25 @@ margin: 0 40px;
     letter-spacing: 1px;
 }
 
-#sobreMi .sobreMi p{
+#sobreMi .sobreMi p {
     font-size: 14px;
     line-height: 25px;
-    color: rgba(0, 6, 5, 0.646);
+    color: rgb(7, 7, 7);
     margin-bottom: 12px;
 }
 
-#sobreMi .sobreMi a{
+#sobreMi .sobreMi a {
     display: inline-block;
     text-decoration: none;
-    color: rgb(122, 219, 184);
+    color: rgb(122, 222, 229);
     border-radius: 30px;
     padding: 10px 20px;
-    border: 1px solid rgb(158, 228, 217);
+    border: 1px solid rgb(171, 226, 232);
     margin-top: 30px;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-#sobreMi .sobreMi a:hover{
-    background-color: rgb(136, 248, 209);
-    color: rgb(180, 244, 228);
+#sobreMi .sobreMi a:hover {
+    background-color: rgb(146, 223, 227);
+    color: rgb(132, 226, 229);
 }
